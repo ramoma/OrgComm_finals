@@ -1,0 +1,18 @@
+// changing variable-exists
+
+$primary: #FF1492;
+$secondary: #DC143C;
+
+
+
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+$custom-colors:(
+    "as-gray": #708090,
+    "altblack" : #0F1717
+);
+
+$theme-colors: map-merge($theme-colors,$custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
