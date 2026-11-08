@@ -10,7 +10,9 @@ $secondary: #DC143C;
 
 $custom-colors:(
     "as-gray": #708090,
-    "altblack" : #0F1717
+    "altblack" : #0F1717,
+    "theme-bg-white": #F2F0EF,
+    "theme-text-gold": #918D41
 );
 
 $theme-colors: map-merge($theme-colors,$custom-colors);
