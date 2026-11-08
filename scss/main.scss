@@ -1,20 +1,20 @@
 // changing variable-exists
 
-$primary: #FF1492;
-$secondary: #DC143C;
-
-
-
 @import "../node_modules/bootstrap/scss/_functions.scss";
 @import "../node_modules/bootstrap/scss/_variables.scss";
 
 $custom-colors:(
-    "as-gray": #708090,
-    "altblack" : #0F1717,
     "theme-bg-white": #F2F0EF,
     "theme-text-gold": #918D41
 );
 
+$custom-lengths:(
+    6: 1.25rem,
+    7: 1.5rem
+);
+
 $theme-colors: map-merge($theme-colors,$custom-colors);
+$position-values: map-merge($position-values, $custom-lengths);
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
