@@ -1,0 +1,17 @@
+.test{
+
+    background-image: url('../assets/Wave.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+/*    width: 100vh;
+    height: 100vw;
+    position: sticky ;
+    bottom: 0;*/
+
+}
+
+/*@media (min-width: 1300px){
+
+    .test{bottom: -300px;}
+
+}*/
