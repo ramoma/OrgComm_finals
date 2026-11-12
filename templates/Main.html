@@ -2,48 +2,108 @@
 <html>
     <head>
         <title>Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='icon' href='../assets/logoComp.png'>
         <link rel='stylesheet' href='../css/main.css'>
         <link rel='stylesheet' href='../css/fonts.css'>
+        <link rel='stylesheet' href="../css/test.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Prata&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Marcellus&family=Prata&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <nav class= "navbar navbar-expand-md bg-theme-bg-white p-0">
-            <div class="container-fluid d-flex p-0">
-                <a class="navbar-brand m-0"> <!-- will try to remember how to customize sizing -->
-                    <div class="d-flex align-item-center">
-                        <img src="../assets/logoComp.png" style="width:82px; height:52px;">
-                        <p class="pt-2 mt-1 m-0 marcellus-regular text-theme-text-gold">University of Makati</p>
-                    </div>
-                </a>
-                <a class="navbar-brand p-0" href="Main.html">
-                    <div class="align-self-center prata-regular p-0 fs-sm">
-                            <p class="m-auto fs-4 text-center pt-1">VOLB</p>
-                            <span style="font-size:10px;" class="p-0">Organizational Communications Title</span>
-                    </div>
-                </a>
-                <a class="navbar-brand p-0">
-                    <div class="align-self-end p-0">
-                        <img src="../assets/V.svg" style="width:69pd; height:68px;">
-                    </div>
-                </a>
+    <body class="overflow-scroll bg-theme-bg-white">
+        <div class="position-sticky top-0 z-3">
+            <nav class= " z-3 navbar navbar-expand-md bg-theme-bg-white p-0">
+                <div class="container-fluid d-flex p-0">
+                    <a class="navbar-brand m-0" href="Main.html"> <!-- will try to remember how to customize sizing -->
+                        <div class="d-flex align-item-center">
+                            <img src="../assets/logoComp.png" style="width:82px; height:52px;">
+                            <p class="pt-2 mt-1 m-0 marcellus-regular text-theme-text-gold">University of Makati</p>
+                        </div>
+                    </a>
+                    <a class="navbar-brand p-0 h-25 me-5 pe-5" href="#">
+                        <div class="d-flex flex-column prata-regular p-0 fs-sm">
+                                <p class="m-auto fs-4 text-center pt-1">VOLB</p>
+                                <span style="font-size:10px;" class="p-0">Organizational Communications Title</span>
+                        </div>
+                    </a>
+                    <a class="navbar-brand p-0">
+                        <div class="align-self-auto p-auto">
+                            <img src="../assets/volb_logo.svg" style="width:69pd; height:68px;">
+                        </div>
+                    </a>
+                </div>
+
+            </nav>
+            <nav class="z-3 navbar navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black  ">
+                <div class="container-fluid d-flex">
+                    <ul class="navbar-nav m-auto prata-regular">
+                        <a href="OrgChart.html" class="nav-link me-0 me-xl-5 pe-3 pe-xl-5"><li class="nav-item">Organizational Chart</li></a>
+                        <a href="TheoryPage.html" class="nav-link me-0 me-xl-5 pe-3 pe-xl-5 "><li class="nav-item">Theory Behind VOLB</li></a>
+                        <a href="Reflections.html" class="nav-link me-0 me-xl-5 pe-3 pe-xl-5 "><li class="nav-item">Reflection</li></a>
+                        <a href="AboutUs.html" class="nav-link me-0 me-xl-5 pe-3 pe-xl-5 "><li class="nav-item">About Us</li></a>
+                        <a href="#" class="nav-link me-0 me-xl-5 pe-3 pe-xl-5 "><li class="nav-item">Contact Us</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+<!--    penis :3      -->
+        <div class="d-block">
+            <div class="bg-theme-text-gold position-relative" style="width: 100%; height: 522px;"><p>tite</p></div>
+            <div class="px-5 position-relative z-3S ">
+
+                <div class=" display-2">
+
+                    <p class="cinzel-bold">Bridging Code</p>
+                    <p class="cinzel-light">& Culture</p>
+
+                </div>
+                <p class="marcellus-regular fs-2 w-50 pb-5 mb-5">An academic exploration of organizational communication through
+                            Douglas McGregor’s Theory Y, built by Computer Science students
+                            at the University of Makati . Reimagining software logic through human autonomy.
+                </p>
+
+            </div>
+        </div>
+<!--    wave overlay      -->
+        <div class="m-auto pb-5 position-relative z-3 prata-regular" style="width: 290px;">
+            <a href="OrgChart.html" class="text-black link-underline link-underline-opacity-0">
+            <div class="py-2 rounded-pill bg-theme-bg-white  text-center">
+                <p class="m-0 h3 py-2 px-3">Explore Project</p>
+            </div>
+            </a>
+        </div>
+        <div class="w-100 h-100 mt-5 position-fixed z-2 bottom-0" style="background-image: url('../assets/Wave.svg');background-repeat: no-repeat;background-size: cover;"></div>
+        <footer class="container-fluid mt-5 position-relative bottom-0 d-flex z-3 bg-theme-bg-white w-100 prata-regular">
+            <div class="me-5">
+                <img src="../assets/V.svg" style="height: 300px;">
+            </div>
+            <div class="pt-5 w-25">
+                <p class="h3">About</p>
+                <p class="">
+                    VOLB is a Tech & Human Systems Lab that combines software development with editorial design. We are guided by McGregor's Theory Y, built on autonomy, trust and teamwork. VOLB stands for Villarta, Ong, Lingatong and Baltazar, the creators of this website.
+                </p>
+            </div>
+            <div class="pt-5 px-5 w-25 mx-5 row-lg-2">
+                <p class="h3">Contact</p>
+                <div class="d-flex">
+                    <span><img src="../assets/icons/location_on.svg"></span> <p class="ps-2">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p>
+                </div>
+                <div class="d-flex">
+                    <span><img src="../assets/icons/Phone.svg"></span> <p class="ps-3">505-503-4455</p>
+                </div>
+                <div class="d-flex">
+                    <span><img src="../assets/icons/mail.svg"></span> <p class="ps-2">gaben@valvesoftware.com</p>
+                </div>
+            </div>
+            <div class="pt-5">
+                <p class="h3">Credits</p>
+                <p class="">Organizational Communication Group Project</p>
+                <p> University of Makati</p>
+                <p> Members: Villarta, Ong, Lingatong, Baltazar</p>
             </div>
 
-        </nav>
-        <nav class="navbar navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black  ">
-            <div class="container-fluid d-flex">
-                <ul class="navbar-nav m-auto prata-regular">
-                    <a href="orgchart.html" class="nav-link me-5"><li class="nav-item">Organizational Chart</li></a>
-                    <a href="#" class="nav-link me-5"><li class="nav-item">Different Theories</li></a>
-                    <a href="#" class="nav-link me-5"><li class="nav-item">Reflection</li></a>
-                    <a href="#" class="nav-link me-5"><li class="nav-item">Company History</li></a>
-                    <a href="#" class="nav-link me-5"><li class="nav-item">About & Contact</li></a>
-                </ul>
-            </div>
-        </nav>
-
+        </footer>
     </body>
 
 </html>
