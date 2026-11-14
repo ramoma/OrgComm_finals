@@ -1,0 +1,30 @@
+.test{
+
+    background-image: url('../assets/Wave.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+/*    width: 100vh;
+    height: 100vw;
+    position: sticky ;
+    bottom: 0;*/
+
+}
+
+@keyframes fade-in{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
+.toLoad{
+
+    animation: fade-in linear;
+    animation-timeline: view();
+
+}
+
+
+/*@media (min-width: 1300px){
+
+    .test{bottom: -300px;}
+
+}*/
