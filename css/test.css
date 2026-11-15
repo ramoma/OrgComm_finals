@@ -22,6 +22,22 @@
 
 }
 
+.flip-card { perspective: 1200px; }
+
+.flip-inner {
+    display: grid;                 /* front and back share one cell, so height = the taller face */
+    transform-style: preserve-3d;
+    transition: transform 0.7s;
+}
+.flip-card:hover .flip-inner,
+.flip-card:focus .flip-inner { transform: rotateY(180deg); }
+
+.flip-face {
+    grid-area: 1 / 1;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.flip-back { transform: rotateY(180deg); }
 
 /*@media (min-width: 1300px){
 
