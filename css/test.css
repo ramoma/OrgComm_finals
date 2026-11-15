@@ -33,6 +33,7 @@
 .flip-card:focus .flip-inner { transform: rotateY(180deg); }
 
 .flip-face {
+    aspect-ratio: 16 / 10;
     grid-area: 1 / 1;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
