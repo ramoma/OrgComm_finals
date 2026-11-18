@@ -10,21 +10,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Marcellus&family=Prata&display=swap" rel="stylesheet">
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </head>
-    <body class="overflow-y-scroll bg-theme-bg-white" style="background-image: url('../assets/theory_wave.svg'); background-size: cover; background-repeat: no-repeat; background-position; center;">
+    <body class="overflow-y-scroll bg-theme-bg-white" style="background-image: url('../assets/theory_wave.svg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
 <!--     <body class="overflow-y-scroll bg-theme-bg-white"> -->
         <div class="position-sticky top-0 z-3">
             <nav class= " z-3 navbar navbar-expand-md bg-theme-bg-white p-0">
                 <div class="container-fluid d-flex p-0">
-                    <a class="navbar-brand m-0" href="Main.html"> <!-- will try to remember how to customize sizing -->
+                    <a class="navbar-brand m-0 d-none d-md-block" href="Main.html"> <!-- will try to remember how to customize sizing -->
                         <div class="d-flex align-item-center">
                             <img src="../assets/logoComp.png" style="width:82px; height:52px;">
                             <p class="pt-2 mt-1 m-0 marcellus-regular text-theme-text-gold">University of Makati</p>
                         </div>
                     </a>
-                    <a class="navbar-brand p-0 h-25 me-5 pe-5" href="#">
+                    <a class="navbar-brand p-0 h-25 pe-5 m-auto" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
                         <div class="d-flex flex-column prata-regular p-0 pe-5 me-5 fs-sm">
-                                <p class="m-auto fs-4 text-center pt-1">VOLB</p>
+                                <p class="m-auto fs-4 pt-1">VOLB</p>
                                 <span style="font-size:10px;" class="p-0">Organizational Communications Title</span>
                         </div>
                     </a>
@@ -36,7 +37,7 @@
                 </div>
 
             </nav>
-            <nav class="z-3 navbar navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black  ">
+            <nav class="collapse z-3 navbar navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black  " id="collapseNav">
                 <div class="container-fluid d-flex">
                     <ul class="navbar-nav m-auto prata-regular lh-lg">
                         <a href="OrgChart.html" class="nav-link me-0 me-xl-5 pe-3 pe-xl-5"><li class="nav-item">Organizational Chart</li></a>
@@ -62,11 +63,11 @@
         </div>
 
         <div class="d-flex align-items-center mx-5 px-5 mb-5">
-            <div class="mt-4 mb-5">
-                <img src="../assets/volb_logo_2.svg" style="width:631px; height:556px;">
+            <div class="mx-5 px-5 mt-3 ">
+                <img src="../assets/volb_logo_2.svg" style="width:267px; height:257px;">
             </div>
-            <div class="px-5 position-relative" style="top:-50px;">
-                <p class="prata-regular display-6 fs-3">What does VOLB stand for?<br>
+            <div class="px-5 pt-5 position-relative" style="top:-50px;">
+                <p class="pt-5 prata-regular display-6 fs-3">What does VOLB stand for?<br>
                 VOLB stand for “Villarta, Ong, Lingatong, and Baltazar”, this simple yet sophisticated logo 
                 was made from the first letters of each of our names showing unity as a team and friends. This was made to honor each of the creators of this very website you are browsing through.</p>
             </div>
@@ -122,7 +123,7 @@
         <div class="text-center mt-5 pb-5" id="reptContainer" style="font-size: 5px;">
             <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis</span>
         </div>
-        <div class="container-fluid position-relative px-5 pt-5 pb-5 mt-5">
+        <div class="container-fluid position-relative px-5 pb-5 mt-5">
             <h2 class="prata-regular display-6 text-center fw-normal mb-4">Core Values</h2>
             <div class="container" style="text-align:justify;">
 
@@ -178,17 +179,17 @@
         </div>
 
 
-        <footer class="container-fluid position-relative bottom-0 mt-5 d-flex z-3 bg-theme-bg-white w-100 prata-regular">
-            <div class="me-5">
-                <img src="../assets/V.svg" style="height: 300px;">
+        <footer class="container-fluid position-relative bottom-0 d-flex mt-5 z-3 bg-theme-bg-white w-100 prata-regular">
+            <div class="mx-1">
+                <img src="../assets/volb_logo_2.svg" style="height: 250px;">
             </div>
-            <div class="pt-5 w-25">
+            <div class="pt-5 w-25 mx-auto">
                 <p class="h3">About</p>
                 <p class="">
                     VOLB is a Tech & Human Systems Lab that combines software development with editorial design. We are guided by McGregor's Theory Y, built on autonomy, trust and teamwork. VOLB stands for Villarta, Ong, Lingatong and Baltazar, the creators of this website.
                 </p>
             </div>
-            <div class="pt-5 px-5 w-25 mx-5 row-lg-2">
+            <div class="pt-5 px-3 w-25 mx-auto">
                 <p class="h3">Contact</p>
                 <div class="d-flex">
                     <span><img src="../assets/icons/location_on.svg"></span> <p class="ps-2">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p>
@@ -200,13 +201,12 @@
                     <span><img src="../assets/icons/mail.svg"></span> <p class="ps-2">gaben@valvesoftware.com</p>
                 </div>
             </div>
-            <div class="pt-5">
+            <div class="pt-5 pe-5 mx-auto">
                 <p class="h3">Credits</p>
-                <p class="">Organizational Communication Group Project</p>
+                <p>Organizational Communication Group Project</p>
                 <p> University of Makati</p>
                 <p> Members: Villarta, Ong, Lingatong, Baltazar</p>
             </div>
-
         </footer>
 
    </body>
