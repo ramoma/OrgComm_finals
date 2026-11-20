@@ -14,7 +14,7 @@
     </head>
     <body class="overflow-y-scroll bg-theme-bg-white" style="background-image: url('../assets/reflection_wave.svg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
         <div class="position-sticky top-0 z-3">
-            <nav class= " z-3 navbar navbar-expand-md bg-theme-bg-white p-0">
+            <nav class= " z-3 navbar navbar-expand-md bg-theme-bg-white p-0 d-none d-md-block">
                 <div class="container-fluid d-flex p-0">
                     <a class="navbar-brand m-0 d-none d-md-block" href="Main.html"> <!-- will try to remember how to customize sizing -->
                         <div class="d-flex align-item-center">
@@ -22,19 +22,33 @@
                             <p class="pt-2 mt-1 m-0 marcellus-regular text-theme-text-gold">University of Makati</p>
                         </div>
                     </a>
-                    <a class="navbar-brand p-0 h-25 pe-5 m-auto" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
+                    <a class="navbar-brand p-0 h-25 pe-5 m-auto d-none d-md-block" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
                         <div class="d-flex flex-column prata-regular p-0 pe-5 me-5 fs-sm">
                                 <p class="m-auto fs-4 pt-1">VOLB</p>
-                                <span style="font-size:10px;" class="p-0">Organizational Communications Title</span>
+                                <span style="font-size:10px;" class="p-0">Organizational Communications </span>
                         </div>
                     </a>
-                    <a class="navbar-brand p-0" href="AboutUs.html">
+                    <a class="navbar-brand d-block d-md-none h-25 pe-5 m-auto" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
+                        <div class="d-flex flex-column prata-regular p-0 pe-5 me-5 fs-sm">
+                                <p class="m-auto fs-4 pt-1">VOLB</p>
+                                <span style="font-size:10px;" class="p-0">Organizational Communications </span>
+                        </div>
+                    </a>
+                    <a class="navbar-brand p-0 d-none d-md-block" href="AboutUs.html">
                         <div class="align-self-end p-0">
                             <img src="../assets/volb_logo.svg" class="position-relative" style="width:69px; height:68px; top: 10px">
                         </div>
                     </a>
                 </div>
 
+            </nav>
+            <nav class="z-3 navbar d-block d-md-none navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black">
+                <a class="navbar-brand h-25 text-center d-block  ps-5 ms-5" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
+                    <div class="d-flex flex-column prata-regular p-0 pe-5 me-5 fs-sm">
+                            <p class="m-auto fs-4 pt-1">VOLB</p>
+                            <span style="font-size:10px;" class="p-0">Organizational Communications </span>
+                    </div>
+                </a>
             </nav>
             <nav class="collapse z-3 navbar navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black  " id="collapseNav">
                 <div class="container-fluid d-flex">
@@ -48,10 +62,18 @@
                 </div>
             </nav>
         </div>
-        <div class="" id="reptContainer" style="font-size: 5px;">
+        <div class="d-none d-md-block" id="reptContainer" style="font-size: 5px;">
             <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis</span>
         </div>
-        <div class="d-flex mx-5 mt-5 px-5">
+        <div class="d-flex d-md-none px-4 mt-5">
+            <div class="prata-regular fs-6 pe-2">
+                <p>03</p>
+            </div>
+            <div class="opacity-50 prata-regular border-start border-3 border-black fs-5 ps-2">
+                <p>Individual Reflections</p>
+            </div>
+        </div>
+        <div class="mx-5 d-none d-md-flex mt-5 px-5">
             <div class="prata-regular display-3 pe-2">
                 <p>03</p>
             </div>
@@ -59,7 +81,7 @@
                 <p>Individual Reflections</p>
             </div>
         </div>
-        <div class="mx-5 px-5 mt-5 h4 prata-regular" style="text-align: justify">
+        <div class="mx-5 px-5 mt-5 h4 prata-regular d-none d-md-block" style="text-align: justify">
             <div>
                 <p>
                     Organizational Communication sounds boring to be honest but once you learn you start to understand why its essential especially for college students like us to learn how work in teams, collaborate, and do our part. Organizational Communication teaches you how information, culture, and relationships are structured within an organization to achieve shared goals. This is important because to learn is to know and once you learn how something works you eventually end up applying the concepts to your day to day basis. Through frameworks such as Douglas McGregor’s we get to see that there is no standard hierarchy or organization structure, and I’ve realized why can’t we have Theory Y as standard wouldn’t people be more loyal if they were given the chance to enjoy their job. Ultimately, Organizational Communication is a whirlwind of structures, theories, and cultures just like in computer science.
@@ -67,7 +89,7 @@
                 <figcaption class="blockquote-footer">Baltazar Bianca Dave, N.</figcaption>
             </div>
             <div class="text-center pt-3" id="reptContainer" style="font-size: 5px;">
-                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis</span>
+                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis• Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • </span>
             </div>
             <div class="mt-5 pt-5">
                 <p>
@@ -76,16 +98,16 @@
                 <figcaption class="blockquote-footer">Lingatong, Elijah Luis C.</figcaption>
             </div>
             <div class="text-center pt-3" id="reptContainer" style="font-size: 5px;">
-                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis</span>
+                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis• Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • </span>
             </div>
             <div class="mt-5 pt-5">
                 <p>
-                    Organizational Communication explores how information, culture, and relationships are structured within an organization to achieve shared goals. It is vital because clear communication aligns diverse teams, prevents friction, and directly shapes organizational performance and morale. By examining frameworks like McGregor’s Theory Y, I realized that modern workplaces thrive on mutual trust and lateral collaboration rather than rigid top-down command chains. I learned how to analyze team dynamics, design adaptive matrix structures, and bridge distinct domain perspectives such as technical logic and visual storytelling. Ultimately, OrgComm taught me that an organizationa’s structural design is itself a powerful form of communication.
+                    Organizational Communication was a subject I initially brushed off when I saw my enrolled subjects. But through it, I learned that many problems in group work come from breakdowns in communication rather than from technical limitations. Tasks were misunderstood, concerns were raised late, and messages were left unanswered. Learning about the communication process and frameworks like Douglas McGregor’s Theory X and Theory Y gave me a way to understand why these things happen, and why a team that feels trusted and clear on its role tends to do better. Ultimately, communication is no longer an extra skill for me but a core one, because it decides whether an idea ever becomes a solution that people can actually use.
                 </p>
-                <figcaption class="blockquote-footer">Baltazar Bianca Dave, N.</figcaption>
+                <figcaption class="blockquote-footer">Ong James Vincent, Q.</figcaption>
             </div>
             <div class="text-center pt-3" id="reptContainer" style="font-size: 5px;">
-                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis</span>
+                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis• Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • </span>
             </div>
             <div class="mt-5 pt-5">
                 <p>
@@ -94,29 +116,68 @@
                 <figcaption class="blockquote-footer">Villarta Scott Andrei, R.</figcaption>
             </div>
         </div>
+        <div class="mx-2 px-4 mt-5 prata-regular d-block d-md-none" style="text-align: justify; font-size: 15px;">
+            <div>
+                <p>
+                    Organizational Communication sounds boring to be honest but once you learn you start to understand why its essential especially for college students like us to learn how work in teams, collaborate, and do our part. Organizational Communication teaches you how information, culture, and relationships are structured within an organization to achieve shared goals. This is important because to learn is to know and once you learn how something works you eventually end up applying the concepts to your day to day basis. Through frameworks such as Douglas McGregor’s we get to see that there is no standard hierarchy or organization structure, and I’ve realized why can’t we have Theory Y as standard wouldn’t people be more loyal if they were given the chance to enjoy their job. Ultimately, Organizational Communication is a whirlwind of structures, theories, and cultures just like in computer science.
+                </p>
+                <figcaption class="blockquote-footer">Baltazar Bianca Dave, N.</figcaption>
+            </div>
+            <div class="text-center pt-3" id="reptContainer" style="font-size: 5px;">
+                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis •  </span>
+            </div>
+            <div class="mt-5">
+                <p>
+                    As a Computer Science student, I thought that being a good coder means you just code well. Until the subject named Organizational Communication came up and kind of wrecked the whole idea for me, that being good at coding isn't enough If I can't communicate well with my peers. Most of the groupworks I've done had many problems that weren't really about the code because the real reason was either they just didn't understand the task, they left the message on seen that they forgot about finishing it, or nobody said anything 'till the deadline came close. Thanks to this subject, I realized that it is essential to communicate in teams and I get to apply these lessons to my daily life. The one lesson that really stuck in my mind was the process of communication which matters a lot because it shows why the message will either succeed or fail and I get to use this on my day to day basis.
+                </p>
+                <figcaption class="blockquote-footer">Lingatong, Elijah Luis C.</figcaption>
+            </div>
+            <div class="text-center pt-3" id="reptContainer" style="font-size: 5px;">
+                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis •  </span>
+            </div>
+            <div class="mt-5">
+                <p>
+                    Organizational Communication was a subject I initially brushed off when I saw my enrolled subjects. But through it, I learned that many problems in group work come from breakdowns in communication rather than from technical limitations. Tasks were misunderstood, concerns were raised late, and messages were left unanswered. Learning about the communication process and frameworks like Douglas McGregor’s Theory X and Theory Y gave me a way to understand why these things happen, and why a team that feels trusted and clear on its role tends to do better. Ultimately, communication is no longer an extra skill for me but a core one, because it decides whether an idea ever becomes a solution that people can actually use.
+                </p>
+                <figcaption class="blockquote-footer">Ong James Vincent, Q.</figcaption>
+            </div>
+            <div class="text-center pt-3" id="reptContainer" style="font-size: 5px;">
+                <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis •  </span>
+            </div>
+            <div class="mt-5">
+                <p>
+                    Organizational Communication as a subject was something I initially glossed over when looking through my first semester schedule for the school year. I had never given that much thought about how important it would be as a way to reflect on ways I fail as a peer to my fellow students. This project alone helped me apply concepts and frameworks, especially with the case of our chosen theorist. This subject helped me tighten my grasp on how to collaborate with other people within the context of an organization, in this case our classroom, effectively.
+                </p>
+                <figcaption class="blockquote-footer">Villarta Scott Andrei, R.</figcaption>
+            </div>
+        </div>
         <footer class="container-fluid position-relative bottom-0 d-flex mt-5 z-3 bg-theme-bg-white w-100 prata-regular">
-            <div class="mx-4 px-3 my-auto">
+            <div class="mx-4 px-3 my-auto d-none d-md-block">
                 <img src="../assets/volb_logo_2.svg" style="height: 150px;">
             </div>
-            <div class="pt-5 w-25 mx-auto">
+            <div class="mx-4 px-3 my-auto d-block d-md-none">
+                <img src="../assets/volb_logo_2.svg" style="height: 70px;">
+            </div>
+            <div class="pt-5 w-25 mx-auto d-none d-md-block">
                 <p class="h3">About</p>
                 <p class="">
                     VOLB is a Tech & Human Systems Lab that combines software development with editorial design. We are guided by McGregor's Theory Y, built on autonomy, trust and teamwork. VOLB stands for Villarta, Ong, Lingatong and Baltazar, the creators of this website.
                 </p>
             </div>
-            <div class="pt-5 px-3 w-25 mx-auto">
-                <p class="h3">Contact</p>
+            <div class="pt-5 px-3mx-auto"  style="width: 300px;">
+                <p class="fs-5 d-block d-md-none">Contact</p>
+                <p class="h3  d-none d-md-block">Contact</p>
                 <div class="d-flex">
-                    <span><img src="../assets/icons/location_on.svg"></span> <p class="ps-2">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p>
+                    <span><img src="../assets/icons/location_on.svg"></span> <p class="ps-2 d-none d-md-block">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p> <p class="ps-2 d-block d-md-none" style="font-size: 10px;">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p>
                 </div>
                 <div class="d-flex">
-                    <span><img src="../assets/icons/Phone.svg"></span> <p class="ps-3">505-503-4455</p>
+                    <span><img src="../assets/icons/Phone.svg"></span> <p class="ps-3 d-none d-md-block">505-503-4455</p><p class="ps-2 d-block d-md-none" style="font-size: 10px;">505-503-4455</p>
                 </div>
                 <div class="d-flex">
-                    <span><img src="../assets/icons/mail.svg"></span> <p class="ps-2">gaben@valvesoftware.com</p>
+                    <span><img src="../assets/icons/mail.svg"></span> <p class="ps-2 d-none d-md-block">gaben@valvesoftware.com</p><p class="ps-2 d-block d-md-none" style="font-size: 10px;">gaben@valvesoftware.com</p>
                 </div>
             </div>
-            <div class="pt-5 pe-5 mx-auto">
+            <div class="pt-5 pe-5 mx-auto  d-none d-md-block">
                 <p class="h3">Credits</p>
                 <p>Organizational Communication Group Project</p>
                 <p> University of Makati</p>

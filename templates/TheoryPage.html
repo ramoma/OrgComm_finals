@@ -14,8 +14,8 @@
     </head>
     <body class="overflow-y-scroll bg-theme-bg-white" style="background-image: url('../assets/theory_wave.svg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
 <!--     <body class="overflow-y-scroll bg-theme-bg-white"> -->
-        <div class="position-sticky top-0 z-3">
-            <nav class= " z-3 navbar navbar-expand-md bg-theme-bg-white p-0">
+       <div class="position-sticky top-0 z-3">
+            <nav class= " z-3 navbar navbar-expand-md bg-theme-bg-white p-0 d-none d-md-block">
                 <div class="container-fluid d-flex p-0">
                     <a class="navbar-brand m-0 d-none d-md-block" href="Main.html"> <!-- will try to remember how to customize sizing -->
                         <div class="d-flex align-item-center">
@@ -23,19 +23,33 @@
                             <p class="pt-2 mt-1 m-0 marcellus-regular text-theme-text-gold">University of Makati</p>
                         </div>
                     </a>
-                    <a class="navbar-brand p-0 h-25 pe-5 m-auto" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
+                    <a class="navbar-brand p-0 h-25 pe-5 m-auto d-none d-md-block" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
                         <div class="d-flex flex-column prata-regular p-0 pe-5 me-5 fs-sm">
                                 <p class="m-auto fs-4 pt-1">VOLB</p>
-                                <span style="font-size:10px;" class="p-0">Organizational Communications Title</span>
+                                <span style="font-size:10px;" class="p-0">Organizational Communications </span>
                         </div>
                     </a>
-                    <a class="navbar-brand p-0" href="AboutUs.html">
+                    <a class="navbar-brand d-block d-md-none h-25 pe-5 m-auto" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
+                        <div class="d-flex flex-column prata-regular p-0 pe-5 me-5 fs-sm">
+                                <p class="m-auto fs-4 pt-1">VOLB</p>
+                                <span style="font-size:10px;" class="p-0">Organizational Communications </span>
+                        </div>
+                    </a>
+                    <a class="navbar-brand p-0 d-none d-md-block" href="AboutUs.html">
                         <div class="align-self-end p-0">
                             <img src="../assets/volb_logo.svg" class="position-relative" style="width:69px; height:68px; top: 10px">
                         </div>
                     </a>
                 </div>
 
+            </nav>
+            <nav class="z-3 navbar d-block d-md-none navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black">
+                <a class="navbar-brand h-25 text-center d-block  ps-5 ms-5" data-bs-toggle="collapse" href="#collapseNav" aria-controls="collapseNav" aria-expanded="false">
+                    <div class="d-flex flex-column prata-regular p-0 pe-5 me-5 fs-sm">
+                            <p class="m-auto fs-4 pt-1">VOLB</p>
+                            <span style="font-size:10px;" class="p-0">Organizational Communications </span>
+                    </div>
+                </a>
             </nav>
             <nav class="collapse z-3 navbar navbar-expand-md bg-theme-bg-white p-0 border-top border-1 border-black  " id="collapseNav">
                 <div class="container-fluid d-flex">
@@ -49,11 +63,19 @@
                 </div>
             </nav>
         </div>
-        <div class="" id="reptContainer" style="font-size: 5px;">
+        <div class="d-none d-md-block" id="reptContainer" style="font-size: 5px;">
             <span id="toRepeat">Villarta, Scott Andrei • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei• Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Ong, James Vincent • Lingatong, Elijah Luis • Baltazar, Bianca Dave • Villarta, Scott Andrei  • Lingatong, Elijah Luis</span>
         </div>
 
-        <div class="d-flex mx-5 mt-5 px-5">
+        <div class="d-flex d-md-none mt-5 px-4">
+            <div class="prata-regular fs-6 pe-2">
+                <p>02</p>
+            </div>
+            <div class="opacity-50 prata-regular border-start border-3 border-black fs-5 ps-2">
+                <p>Human Resources Theory</p>
+            </div>
+        </div>
+        <div class="mx-5 d-none d-md-flex mt-5 px-5">
             <div class="prata-regular display-3 pe-2">
                 <p>02</p>
             </div>
@@ -61,16 +83,45 @@
                 <p>Human Resources Theory</p>
             </div>
         </div>
-        <div class="d-flex align-items-center mx-5 px-5 mt-5">
-            <div>
+        <div class="d-block d-md-flex align-items-center mx-5 px-5 mt-5">
+            <div class="d-none d-md-block">
                 <img src="../assets/DouglasImage.svg">
             </div>
-            <div class="px-5">
-                <p class="cinzel-bold display-5">Douglas Murray McGregor</p>
+            <div class="d-block d-md-none ms-5">
+                <img class="px-1" src="../assets/DouglasImage.svg" style="width:150px;">
+            </div>
+            <div class="px-5 d-md-block d-none">
+                <p class="cinzel-bold display-5 ">Douglas Murray McGregor</p>
                 <p class="cinzel-light display-6">SEPTEMBER 1906 - OCTOBER 01, 1964</p>
             </div>
+            <div class="d-block d-md-none">
+                <p class="cinzel-bold fs-6 text-center">Douglas Murray McGregor</p>
+                <p class="cinzel-light fs-6">SEPTEMBER 1906 - OCTOBER 01, 1964</p>
+            </div>
         </div>
-        <div class="prata-regular mx-5 my-5 px-5 pb-5 h4">
+        <div class="prata-regular d-none d-md-block mx-5 my-5 px-5 pb-5 h4">
+            <p class="pt-3">
+                Douglas McGregor, a management professor at the Massachusetts Institute of Technology in the 1950s and 1960s, felt that there are 2 different perspectives, which he termed as Theory X and Theory Y. In this section we’re only tackling Theory Y similar to the human relations approach; managers believe that people want to succeed, and they can excel if you give them the right to be creative. In addition, people want to work, seek direction, and are ambitious.
+            </p>
+            <p class="pt-3">
+                Douglas McGregor was chosen as the core management theorist for VOLB because his Theory Y framework directly aligns with the student collective’s collaborative, self-directed culture.
+            </p>
+            <p class="pt-3">
+                Theory Y was selected for the various following reasons:
+            </p>
+            <ul class="lh-base">
+                <li>
+                    Emphasizes Autonomy and Trust: Unlike Theory X which assumes workers are inherently lazy and require strict micromanagement, Theory Y posits that individuals are self-motivated, seek responsibility, and find physical and mental effort as natural as play. This matches our team’s autonomous approach to managing this project.
+                </li>
+                <li>
+                    Justifies the Matrix Structure: Theory Y provides the academic backing for our Agile Cross-Functional Matrix. Because out 4-person team relies on peer accountability and lateral communication across design and engineering pods rather than a top-down chain of command, Douglas McGregor’s framework proves that our structure is built on trust rather than control.
+                </li>
+                <li>
+                    Bridges Computer Science and human Systems: VOLB functions as an Organizational Tech & Human Systems Lab. McGregor’s focus on human motivation and organizational psychology gives our computer science perspective a robust management theory foundation, proving that technical architecture and human communication systems must be designed with the same collaborative principles.
+                </li>
+            </ul>
+        </div>
+        <div class="prata-regular d-block d-md-none my-5 px-4 pb-5 " style="font-size: 13px; text-align: justify;">
             <p class="pt-3">
                 Douglas McGregor, a management professor at the Massachusetts Institute of Technology in the 1950s and 1960s, felt that there are 2 different perspectives, which he termed as Theory X and Theory Y. In this section we’re only tackling Theory Y similar to the human relations approach; managers believe that people want to succeed, and they can excel if you give them the right to be creative. In addition, people want to work, seek direction, and are ambitious.
             </p>
@@ -93,28 +144,32 @@
             </ul>
         </div>
         <footer class="container-fluid position-relative bottom-0 d-flex mt-5 z-3 bg-theme-bg-white w-100 prata-regular">
-            <div class="mx-4 px-3 my-auto">
+            <div class="mx-4 px-3 my-auto d-none d-md-block">
                 <img src="../assets/volb_logo_2.svg" style="height: 150px;">
             </div>
-            <div class="pt-5 w-25 mx-auto">
+            <div class="mx-4 px-3 my-auto d-block d-md-none">
+                <img src="../assets/volb_logo_2.svg" style="height: 70px;">
+            </div>
+            <div class="pt-5 w-25 mx-auto d-none d-md-block">
                 <p class="h3">About</p>
                 <p class="">
                     VOLB is a Tech & Human Systems Lab that combines software development with editorial design. We are guided by McGregor's Theory Y, built on autonomy, trust and teamwork. VOLB stands for Villarta, Ong, Lingatong and Baltazar, the creators of this website.
                 </p>
             </div>
-            <div class="pt-5 px-3 w-25 mx-auto">
-                <p class="h3">Contact</p>
+            <div class="pt-5 px-3mx-auto"  style="width: 300px;">
+                <p class="fs-5 d-block d-md-none">Contact</p>
+                <p class="h3  d-none d-md-block">Contact</p>
                 <div class="d-flex">
-                    <span><img src="../assets/icons/location_on.svg"></span> <p class="ps-2">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p>
+                    <span><img src="../assets/icons/location_on.svg"></span> <p class="ps-2 d-none d-md-block">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p> <p class="ps-2 d-block d-md-none" style="font-size: 10px;">308 Negra Arroyo Lane, Albuquerque, New Mexico 87104</p>
                 </div>
                 <div class="d-flex">
-                    <span><img src="../assets/icons/Phone.svg"></span> <p class="ps-3">505-503-4455</p>
+                    <span><img src="../assets/icons/Phone.svg"></span> <p class="ps-3 d-none d-md-block">505-503-4455</p><p class="ps-2 d-block d-md-none" style="font-size: 10px;">505-503-4455</p>
                 </div>
                 <div class="d-flex">
-                    <span><img src="../assets/icons/mail.svg"></span> <p class="ps-2">gaben@valvesoftware.com</p>
+                    <span><img src="../assets/icons/mail.svg"></span> <p class="ps-2 d-none d-md-block">gaben@valvesoftware.com</p><p class="ps-2 d-block d-md-none" style="font-size: 10px;">gaben@valvesoftware.com</p>
                 </div>
             </div>
-            <div class="pt-5 pe-5 mx-auto">
+            <div class="pt-5 pe-5 mx-auto  d-none d-md-block">
                 <p class="h3">Credits</p>
                 <p>Organizational Communication Group Project</p>
                 <p> University of Makati</p>
