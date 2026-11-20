@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "scripts": {
+    "build": "mkdir -p public/vendor && cp -r node_modules/bootstrap/dist/css node_modules/bootstrap/dist/js public/vendor/"
+  },
+}
